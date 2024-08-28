@@ -1,0 +1,97 @@
+<! to create a periodic table >
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+</head>
+<body>
+    <h1>PERIODIC TABLE</h1>
+    <table border="2">
+        <tr>     <! tr=table row>
+            <! th*no. of heading req >
+            <! here we are creating 19 headings for 18columns in periodic table >
+            <th></th>
+            <th>1</th>         <! th=table heading>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+            <th>16</th>
+            <th>17</th>
+            <th>18</th>
+        </tr>
+        <tr>   <! row 1>
+            <th>1</th>
+            <td>H <sup>1</sup></td>   <! td=table data sup=super script>
+            
+            <! colspan-specifies the number of columns a cell should span.
+             It allows the single table cell to span the width of more than one cell or column.
+             acts lik merge and centre in excel
+             syntax: colspan="no. of headings/rows u want to skip" >
+            <! here in periodic table after 1, the next element is at 18.
+            hence we use colspan for this >
+
+            <td colspan="16"></td>
+
+            <td>He <sup>2</sup></td>
+        </tr>
+        <tr> <! row 2>
+            <th>2</th>
+            <td>Li <sup>3</sup></td>
+            <td>Be <sup>4</sup></td>
+            <td colspan="10"></td>
+            <td>B <sup>5</sup></td>
+            <td>C <sup>6</sup></td>
+            <td>N <sup>7</sup></td>
+            <td>O <sup>8</sup></td>
+            <td>F <sup>9</sup></td>
+            <td>Ne <sup>10</sup></td>
+        </tr>
+        <tr> <! row 3>
+            <th>3</th>
+            <td>Na <sup>11</sup></td>
+            <td>Mg <sup>12</sup></td>
+            <td colspan="10"></td>
+            <td>Al <sup>13</sup></td>
+            <td>Si <sup>14</sup></td>
+            <td>P <sup>15</sup></td>
+            <td>S <sup>16</sup></td>
+            <td>Cl <sup>17</sup></td>
+            <td>Ar <sup>18</sup></td>
+        </tr>
+        <tr>  <! row 4>
+            <th>4</th>
+            <td>K <sup>19</sup></td>
+            <td>Ca <sup>20</sup></td>
+            <td>Sc <sup>21</sup></td>
+            <td>Ti <sup>22</sup></td>
+            <td>V <sup>23</sup></td>
+            <td>Cr <sup>24</sup></td>
+            <td>Mn <sup>25</sup></td>
+            <td>Fe <sup>26</sup></td>
+            <td>Co <sup>27</sup></td>
+            <td>Ni <sup>28</sup></td>
+            <td>Cu <sup>29</sup></td>
+            <td>Zn <sup>30</sup></td>
+            <td>Ga <sup>31</sup></td>
+            <td>Ge <sup>32</sup></td>
+            <td>As <sup>33</sup></td>
+            <td>Se <sup>34</sup></td>
+            <td>Br <sup>35</sup></td>
+            <td>Kr <sup>36</sup></td>
+        </tr>
+    </table>
+</body>
+</html>
