@@ -1,0 +1,30 @@
+#footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: cornflowerblue;
+    /* background-color: black; */
+} 
+  .pan{
+    height: 250px;
+    width: 250px;
+    padding: 2.5px;
+  }
+  .pan {
+    width: 245px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 5px 5px black;
+  }
+.border{
+    border-width: thin;
+    border-color: black;
+    border-style: double;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-content: center;
+}
+#centre{
+    text-align: center;
+}

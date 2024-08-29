@@ -1,0 +1,13 @@
+#heading{
+    color:brown;
+
+}
+#start{
+    border: 2px black; 
+}
+#footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
