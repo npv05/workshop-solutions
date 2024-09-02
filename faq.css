@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6rem;
+}
+.accordian{
+    background-color:blanchedalmond;
+    padding: 4px 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    /* cursor: pointer; */
+}
+.accordion-item {
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.answer{
+    color: darkgrey;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.accordion-item.active .answer {
+    max-height: 200px; /* Adjust according to the content */
+}
+
+.accordion-item.active .arrow {
+    transform: rotate(180deg); /* Rotate arrow when active */
+}
